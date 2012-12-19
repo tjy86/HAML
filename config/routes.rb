@@ -1,4 +1,5 @@
 Haml::Application.routes.draw do
+  get '/hamltime' => 'vampires#hamltime'
   resources :vampires
 
 
