@@ -1,4 +1,9 @@
 class VampiresController < ApplicationController
+
+  def hamltime
+    @vampires = Vampire.all
+  end
+
   # GET /vampires
   # GET /vampires.json
   def index
