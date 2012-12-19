@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  blood_type: MyString
+  team: MyString
+
+two:
+  name: MyString
+  blood_type: MyString
+  team: MyString

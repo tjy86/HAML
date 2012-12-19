@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @vampire.name %>
+</p>
+
+<p>
+  <b>Blood type:</b>
+  <%= @vampire.blood_type %>
+</p>
+
+<p>
+  <b>Team:</b>
+  <%= @vampire.team %>
+</p>
+
+
+<%= link_to 'Edit', edit_vampire_path(@vampire) %> |
+<%= link_to 'Back', vampires_path %>
